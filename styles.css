@@ -1,0 +1,88 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #130505;
+    color: #e81515;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Header styles */
+h1 {
+    color: #a21212;
+    margin: 0;
+    height: 250px; 
+}
+
+/* Container styles */
+.container {
+    background: #ef4949;
+    color: #2e1212;
+    width: 250px;  
+    height: 350px; 
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #ef4949;
+    box-shadow: 0 2px 4px rgba(238, 236, 236, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Form and input field styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 50%;  
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    text-align: center;
+}
+
+input[type="text"], input[type="number"], input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 2px solid #00008B;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #e0e7ff;
+    color: #000080;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Button styles */
+input[type="button"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #00008B;  /* Blue background */
+    color: #ffffff;             /* White text */
+    border: 1px solid #00008B;  /* Blue border */
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the button */
+input[type="button"]:hover {
+    background-color: #f705d7;  /* Lighter blue on hover */
+}
+#resultText {
+    font-size: 4rem; /* Larger text */
+    font-weight: bold;
+    color: #d60f73; /* Pink color */
+}

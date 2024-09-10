@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deathnote Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><img src="annn.png" alt="Deathnote Timer" id="headerGif"></h1>
+    
+    <form action="http://127.0.0.1:5000/process_numbers" method="POST">
+        <label for="name1">
+            <img src="name.png" alt="Name" id="inputImage"><br><br><br><br>
+            <input type="text" id="name1" name="name1" required placeholder="Your Name">
+        </label><br><br>
+        <label for="name2">
+            <img src="dob.png" alt="DOB" id="inputImage">
+            <input type="text" id="name2" name="name2" required placeholder="Partner's Name">
+        </label><br><br>
+        
+        <input type="button" value="LOVIFY" onclick="calculateFLAMES()">
+    </form>
+
+    <script src="script.js"></script> 
+</html>
